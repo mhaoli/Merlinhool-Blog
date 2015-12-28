@@ -1,0 +1,55 @@
+menu:
+  Home: /
+  Archives: /archives
+  About: /about
+
+widgets:
+# search/tag/category/recent_posts/tagcloud
+- search
+- recent_posts
+- blogroll
+- category
+- tag
+- XiamiMusic
+
+excerpt_link: Read More
+
+twitter:
+  username:
+  show_replies: false
+  tweet_count: 5
+
+social:
+# key weibo/twitter/google/github/stackoverflow/rss
+# value url
+# e.g github: https://github.com/DaiXiang
+# github: https://github.com/DaiXiang
+  rss: /atom.xml
+
+share:
+# Only support Sina-Weibo/Google-Plus now
+# key weibo/google
+# value share link
+  weibo: http://v.t.sina.com.cn/share/share.php
+  google: https://plus.google.com/share
+
+addthis:
+  enable: false
+  pubid:
+  facebook: true
+  twitter: true
+  google: true
+  pinterest: true
+
+fancybox: true
+
+google_analytics:
+rss: /atom.xml
+
+comment_provider: 
+# Facebook comment
+
+swiftype_search:
+  enable: true
+  install_code: 
+  search_input_selector: # st-search-input
